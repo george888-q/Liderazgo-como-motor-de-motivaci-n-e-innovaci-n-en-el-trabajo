@@ -11,8 +11,9 @@
     --accent-color: #f59e0b;
     --text-dark: #1f2937;
     --text-light: #6b7280;
-    --bg-light: #f9fafb;
+    --bg-light: #ffffff;
     --bg-white: #ffffff;
+    --card-bg: #ffe8cc;
     --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
     --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
     --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
@@ -23,7 +24,7 @@ body {
     font-family: 'Poppins', sans-serif;
     line-height: 1.6;
     color: var(--text-dark);
-    background-color: var(--bg-white);
+    background-color: #ffffff;
     overflow-x: hidden;
 }
 
@@ -34,7 +35,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #ff8c42 0%, #ff6b35 100%);
     background-size: cover;
     background-position: center;
     overflow: hidden;
@@ -67,7 +68,7 @@ body {
     left: 0;
     right: 0;
     bottom: 0;
-    background: linear-gradient(135deg, rgba(37, 99, 235, 0.8) 0%, rgba(30, 64, 175, 0.8) 100%);
+    background: linear-gradient(135deg, rgba(255, 140, 66, 0.8) 0%, rgba(255, 107, 53, 0.8) 100%);
 }
 
 .hero-content {
@@ -182,13 +183,13 @@ body {
     left: 50%;
     width: 0;
     height: 2px;
-    background: var(--primary-color);
+    background: #ff8c42;
     transition: all 0.3s ease;
     transform: translateX(-50%);
 }
 
 .nav-link:hover {
-    color: var(--primary-color);
+    color: #ff8c42;
 }
 
 .nav-link:hover::after {
@@ -238,7 +239,7 @@ body {
 
 /* Introducción */
 .intro-section {
-    background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%);
+    background: #ffffff;
     padding: 4rem 2rem;
     border-radius: 20px;
     margin-bottom: 4rem;
@@ -284,7 +285,7 @@ body {
 }
 
 .concept-card {
-    background: var(--bg-white);
+    background: var(--card-bg);
     padding: 2.5rem;
     border-radius: 15px;
     box-shadow: var(--shadow-lg);
@@ -326,7 +327,7 @@ body {
     gap: 2rem;
     margin-bottom: 3rem;
     padding: 2rem;
-    background: var(--bg-white);
+    background: var(--card-bg);
     border-radius: 15px;
     box-shadow: var(--shadow-md);
     transition: all 0.3s ease;
@@ -360,7 +361,7 @@ body {
 .tips-section {
     margin-top: 4rem;
     padding: 3rem;
-    background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%);
+    background: #ffffff;
     border-radius: 20px;
 }
 
@@ -378,7 +379,7 @@ body {
 }
 
 .tip-card {
-    background: var(--bg-white);
+    background: var(--card-bg);
     padding: 1.5rem;
     border-radius: 12px;
     text-align: center;
@@ -417,7 +418,7 @@ body {
 }
 
 .case-card {
-    background: var(--bg-white);
+    background: var(--card-bg);
     border-radius: 15px;
     overflow: hidden;
     box-shadow: var(--shadow-lg);
@@ -470,7 +471,7 @@ body {
 }
 
 .video-card {
-    background: var(--bg-white);
+    background: var(--card-bg);
     border-radius: 15px;
     overflow: hidden;
     box-shadow: var(--shadow-lg);
@@ -510,7 +511,7 @@ body {
 
 /* Conclusión */
 .conclusion-section {
-    background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%);
+    background: #ffffff;
     padding: 4rem 2rem;
     border-radius: 20px;
 }
@@ -564,7 +565,7 @@ body {
     display: flex;
     gap: 1rem;
     padding: 1.5rem;
-    background: var(--bg-white);
+    background: var(--card-bg);
     border-radius: 12px;
     box-shadow: var(--shadow-sm);
     transition: all 0.3s ease;
@@ -602,7 +603,7 @@ body {
 
 .bibliography-item {
     padding: 1rem;
-    background: var(--bg-white);
+    background: var(--card-bg);
     border-radius: 8px;
     border-left: 4px solid var(--primary-color);
     transition: all 0.3s ease;
@@ -631,7 +632,7 @@ body {
 .footer .author {
     font-size: 1.2rem;
     font-weight: 600;
-    color: var(--accent-color);
+    color: #ff6b35;
     margin-top: 0.5rem;
 }
 
